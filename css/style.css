@@ -25,7 +25,7 @@ body {
 
 .header {
   height: 95vh;
-/* DONE:10 Función seccionada para facilitar lectura*/
+/* DONE: Función seccionada para facilitar lectura background-image: linear-gradient( to right bottom, rgba(126, 213, 111, .8), rgba(40, 180, 133, .8) ), url('../img/hero.jpg'); background-position: top; background-size: cover; id:9   background-image:     linear-gradient(       to right bottom,       rgba(126, 213, 111, .8),       rgba(40, 180, 133, .8)       ),     url('../img/hero.jpg');   background-position: top;   background-size: cover; - <https://github.com/kaied96/imdone/issues/5> */
 
   background-image:
     linear-gradient(
@@ -36,8 +36,11 @@ body {
     url('../img/hero.jpg');
   background-position: top;
   background-size: cover;
-/* DEBUG: Sintax: polygon function
+/* DEBUG: Sintax: polygon function id:10
 Por si acaso.
+- <https://github.com/kaied96/imdone/issues/6>
+Ed Ochoa
+kaied96o@gmail.com
 */
 
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
