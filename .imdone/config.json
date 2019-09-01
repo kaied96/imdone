@@ -18,10 +18,16 @@
       "IDEA",
       "NOTE",
       "REVIEW",
-      "DEBUG"
+      "MARK",
+      "DEBUG",
+      "HELP"
     ]
   },
   "lists": [
+    {
+      "name": "HELP",
+      "hidden": false
+    },
     {
       "name": "TODO",
       "hidden": false
@@ -42,5 +48,11 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
-  }
+  },
+  "sync": {
+    "id": "5d6c22c41621575ef97b73ac",
+    "name": "kaied96/imdone",
+    "useImdoneioForPriority": true
+  },
+  "noHelp": true
 }
