@@ -36,7 +36,9 @@ body {
     url('../img/hero.jpg');
   background-position: top;
   background-size: cover;
-/* DEBUG: Sintax: polygon function */
+/* DEBUG: Sintax: polygon function
+Por si acaso.
+*/
 
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }

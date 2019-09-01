@@ -18,7 +18,8 @@
       "IDEA",
       "NOTE",
       "REVIEW",
-      "DEBUG"
+      "DEBUG",
+      "HELP"
     ]
   },
   "lists": [
@@ -36,6 +37,10 @@
     },
     {
       "name": "bug",
+      "hidden": false
+    },
+    {
+      "name": "HELP",
       "hidden": false
     }
   ],
