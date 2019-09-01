@@ -18,12 +18,16 @@
       "IDEA",
       "NOTE",
       "REVIEW",
+      "MARK",
       "DEBUG",
-      "HELP",
-      "MARK"
+      "HELP"
     ]
   },
   "lists": [
+    {
+      "hidden": true,
+      "name": "HELP"
+    },
     {
       "hidden": false,
       "name": "TODO"
@@ -35,10 +39,6 @@
     {
       "hidden": true,
       "name": "DEBUG"
-    },
-    {
-      "hidden": true,
-      "name": "HELP"
     }
   ],
   "marked": {
@@ -60,5 +60,6 @@
       "titleTemplate": "View github issue %s",
       "icon": "icon-octoface"
     }
-  }
+  },
+  "noHelp": true
 }
