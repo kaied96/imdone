@@ -9,7 +9,7 @@ imdone-help
 
 #TODO: Add tags to your comments like this `+mvp` id:17 +imdone-help
 
-#HELP: Add metadata like this... points:5 id:15 +imdone-help
+#TODO: Add metadata like this... points:5 id:15 +imdone-help
 - [imdone.io](https://imdone.io) adds `id:n` to all your todo comments, so take care to leave that one alone
 
 #HELP: Include subtasks using GFM task lists id:16 +imdone-help
