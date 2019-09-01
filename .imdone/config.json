@@ -33,6 +33,10 @@
     {
       "name": "DEBUG",
       "hidden": false
+    },
+    {
+      "name": "bug",
+      "hidden": false
     }
   ],
   "marked": {

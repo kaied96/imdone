@@ -25,7 +25,8 @@ body {
 
 .header {
   height: 95vh;
-/* DONE: Función seccionada para facilitar lectura */
+/* DONE:10 Función seccionada para facilitar lectura*/
+
   background-image:
     linear-gradient(
       to right bottom,
@@ -36,5 +37,6 @@ body {
   background-position: top;
   background-size: cover;
 /* DEBUG: Sintax: polygon function */
+
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
