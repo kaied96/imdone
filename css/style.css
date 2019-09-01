@@ -25,7 +25,7 @@ body {
 
 .header {
   height: 95vh;
-/* DONE: Función seccionada para facilitar lectura background-image: linear-gradient( to right bottom, rgba(126, 213, 111, .8), rgba(40, 180, 133, .8) ), url('../img/hero.jpg'); background-position: top; background-size: cover; id:9   background-image:     linear-gradient(       to right bottom,       rgba(126, 213, 111, .8),       rgba(40, 180, 133, .8)       ),     url('../img/hero.jpg');   background-position: top;   background-size: cover; - <https://github.com/kaied96/imdone/issues/5> */
+/* TODO: Función seccionada para facilitar lectura background-image: linear-gradient( to right bottom, rgba(126, 213, 111, .8), rgba(40, 180, 133, .8) ), url('../img/hero.jpg'); background-position: top; background-size: cover; id:9   background-image:     linear-gradient(       to right bottom,       rgba(126, 213, 111, .8),       rgba(40, 180, 133, .8)       ),     url('../img/hero.jpg');   background-position: top;   background-size: cover; - <https://github.com/kaied96/imdone/issues/5> */
 
   background-image:
     linear-gradient(
