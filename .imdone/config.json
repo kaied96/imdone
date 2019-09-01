@@ -1,35 +1,9 @@
 {
-  "sync": {
-    "useImdoneioForPriority": true,
-    "name": "kaied96/imdone",
-    "id": "5d6c22c41621575ef97b73ac"
-  },
-  "marked": {
-    "langPrefix": "language-",
-    "smartLists": true,
-    "pedantic": false,
-    "breaks": false,
-    "tables": true,
-    "gfm": true
-  },
-  "lists": [
-    {
-      "hidden": false,
-      "name": "TODO"
-    },
-    {
-      "hidden": false,
-      "name": "DONE"
-    },
-    {
-      "hidden": false,
-      "name": "DEBUG"
-    },
-    {
-      "hidden": false,
-      "name": "HELP"
-    }
+  "exclude": [
+    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
+  "watcher": true,
+  "keepEmptyPriority": false,
   "code": {
     "include_lists": [
       "TODO",
@@ -44,14 +18,47 @@
       "IDEA",
       "NOTE",
       "REVIEW",
-      "MARK",
       "DEBUG",
-      "HELP"
+      "HELP",
+      "MARK"
     ]
   },
-  "keepEmptyPriority": false,
-  "watcher": true,
-  "exclude": [
-    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
-  ]
+  "lists": [
+    {
+      "hidden": false,
+      "name": "TODO"
+    },
+    {
+      "hidden": false,
+      "name": "DONE"
+    },
+    {
+      "hidden": true,
+      "name": "DEBUG"
+    },
+    {
+      "hidden": true,
+      "name": "HELP"
+    }
+  ],
+  "marked": {
+    "langPrefix": "language-",
+    "smartLists": true,
+    "pedantic": false,
+    "breaks": false,
+    "tables": true,
+    "gfm": true
+  },
+  "sync": {
+    "useImdoneioForPriority": true,
+    "name": "kaied96/imdone",
+    "id": "5d6c22c41621575ef97b73ac"
+  },
+  "meta": {
+    "gh": {
+      "urlTemplate": "https://github.com/kaied96/imdone/issues/%s",
+      "titleTemplate": "View github issue %s",
+      "icon": "icon-octoface"
+    }
+  }
 }
